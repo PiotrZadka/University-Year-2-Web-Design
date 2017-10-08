@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+		
+		<script>
+			$(document).ready(function() {
+			
+				$("td").each(function( index ) {
+					$(this).append($(this).css("background-color"));
+					$(this).css("text-align", "center");
+				});
+			});			
+		</script>
+		
+	</head>
+	
+	<body>
+	
+		<table>
+			<tr><td width="200" height="20" style="background-color: Chocolate" /></tr>
+			<tr><td width="200" height="20" style="background-color: Lavender" /></tr>
+			<tr><td width="200" height="20" style="background-color: MediumAquaMarine" /></tr>
+			<tr><td width="200" height="20" style="background-color: LemonChiffon" /></tr>
+			<tr><td width="200" height="20" style="background-color: Pink" /></tr>
+			<tr><td width="200" height="20" style="background-color: SeaGreen" /></tr>
+			<tr><td width="200" height="20" style="background-color: LightSlateGray" /></tr>
+			<tr><td width="200" height="20" style="background-color: Crimson" /></tr>
+		</table>
+	
+	</body>
+</html>
