@@ -1,0 +1,42 @@
+div
+{
+	border: 1px solid black;
+	width: 16%;
+}
+
+div#red
+{
+	background-color: red;
+}
+
+div#orange
+{
+	background-color: orange;
+}
+
+div#yellow
+{
+	background-color: yellow;
+}
+
+div#green
+{
+	background-color: green;
+}
+
+div#blue
+{
+	background-color: blue;
+}
+
+div#violet
+{
+	background-color: violet;
+}
+
+p
+{
+	font-family: sans-serif;
+	font-size: 150%;
+	text-align: center;
+}
