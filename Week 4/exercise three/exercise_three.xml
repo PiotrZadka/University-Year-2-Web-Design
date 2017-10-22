@@ -1,0 +1,52 @@
+<players>
+
+	<player class="warrior" avatar="images/red.png">
+		<id>619650</id>
+		<name>Torold Foster</name>
+		<score>80</score>
+		<email>sorence1942@dayrep.com</email>
+	</player>
+	
+	<player class="mage" avatar="images/orange.png">
+		<id>977767</id>
+		<name>Eohric Carrin</name>
+		<score>200</score>
+		<email>smonstake59@gustr.com</email>
+	</player>
+	
+	<player class="mage" avatar="images/yellow.png">
+		<id>379032</id>
+		<name>Bermund Butler</name>
+		<score>10</score>
+		<email>onat1947@rhyta.com</email>
+	</player>
+	
+	<player class="priest" avatar="images/green.png">
+		<id>913977</id>
+		<name>Gethwine Heard</name>
+		<score>50</score>
+		<email>yourch1966@teleworm.us</email>
+	</player>
+	
+	<player class="warrior" avatar="images/blue.png">
+		<id>531733</id>
+		<name>Kari Burne</name>
+		<score>1200</score>
+		<email>ningle1959@superrito.com</email>
+	</player>
+	
+	<player class="mage" avatar="images/indigo.png">
+		<id>942172</id>
+		<name>Thora Lionheart</name>
+		<score>500</score>
+		<email>rill1983@cuvox.de</email>
+	</player>
+	
+	<player class="priest" avatar="images/violet.png">
+		<id>274569</id>
+		<name>Astrid Battlefist</name>
+		<score>0</score>
+		<email>thansets@jourrapide.com</email>
+	</player>
+	
+</players>
