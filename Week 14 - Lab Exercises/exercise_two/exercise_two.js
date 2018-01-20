@@ -29,7 +29,7 @@ function drawGreenCircle(x,y){
 
 // record mouse X,Y position when mouse is clicked on canvas
 function mouseClick(){
-	$( "canvas").click(function(event){
+	$("canvas").click(function(event){
 		var mouseX = event.pageX;
 		var mouseY = event.pageY;
 
@@ -39,11 +39,11 @@ function mouseClick(){
 			y: mouseY
 		});
 
-
 		// if array is bigger than 5 remove first element
 		if(mouseXY.length > 5){
 			mouseXY.shift();
 		}
+		console.log(mouseXY.length);
 	});
 }
 
