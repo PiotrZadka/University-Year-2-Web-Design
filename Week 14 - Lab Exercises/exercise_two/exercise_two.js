@@ -39,6 +39,7 @@ function mouseClick(){
 			y: mouseY
 		});
 
+
 		// if array is bigger than 5 remove first element
 		if(mouseXY.length > 5){
 			mouseXY.shift();
