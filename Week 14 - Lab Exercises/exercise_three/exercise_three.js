@@ -29,11 +29,12 @@ function addLocationtoArray(x,y,radius){
 		// and clear canvas "clearRect()";
 		if(circleArray.length > 20){
 			circleArray.shift();
-			refreshScreen();
+//			refreshScreen();
 		}
 }
 
-function startAnimating(fps){
+function startAnimating(fps)
+{
 	fpsInterval = 1000/fps;
 	then = Date.now();
 	animate();
@@ -121,6 +122,7 @@ function animate() {
 	var elapsed = now - then;
 	if (elapsed > fpsInterval){
 		then = now - (elapsed % fpsInterval);
+		refreshScreen();
 		for(var i = 0; i < circleArray.length; i++){
 			drawCircle(circleArray[i].x,circleArray[i].y,circleArray[i].r);
 		}
@@ -129,5 +131,5 @@ function animate() {
 
 $(document).ready(function(){
 	controlls();
-	startAnimating(60);
+	startAnimating(30);
 });
